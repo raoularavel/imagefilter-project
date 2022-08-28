@@ -2,6 +2,8 @@ branch-defaults:
   default:
     environment: raoul-kuate-imagefilter-dev
     group_suffix: null
+  master:
+    environment: raoul-kuate-imagefilter-dev
 deploy:
   artifact: ./www/Archive.zip
 global:
