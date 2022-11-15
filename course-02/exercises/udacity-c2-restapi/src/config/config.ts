@@ -11,8 +11,11 @@ export const config = {
     "aws_profile": process.env.AWS_PROFILE,
     "aws_media_bucket": process.env.AWS_BUCKET,
   },
+  auth:{
+    rounds:process.env.PASSWORD_ROUNDS
+  },
   "jwt": {
-    "secret": " "
+    "secret": process.env.JWT
   },
   "prod": {
     "username": "",
